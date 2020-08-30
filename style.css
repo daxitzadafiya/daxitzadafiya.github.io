@@ -59,6 +59,11 @@ body{
     font-weight: bold;
     
 }
+.btn-hire
+{
+    position: relative;
+    top:8.5px
+}
 .myHome
 {
    
