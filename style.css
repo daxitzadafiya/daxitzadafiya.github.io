@@ -1,0 +1,440 @@
+*{
+    margin:00px;
+    padding:00px;
+}
+body{
+    background-color:#edf6f9;
+}
+.leanding_page{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 100vh;
+    border-radius:10px;
+    background-color:#edf6f9
+   
+}
+.my_position
+{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    position: relative;
+    top:70px;
+    -webkit-background-clip: text;
+    text-align: right;
+   
+}
+.myDetails
+{
+    color: grey;
+    text-align: right;
+    position: relative;
+    top:90px;
+  
+   
+}
+.right_side
+{
+    float: right;
+    position: relative;
+    top:40px;
+    padding-right:50px;
+}
+
+.btn_ReadMore{
+    color:white;
+    background-color:grey;
+    border-radius: 50px;
+    padding:7px 20px;
+    text-align: right;
+    position: relative;
+    left:400px;
+    top:90px;
+    font-weight: bold;
+    
+}
+.myHome
+{
+   
+    background-color:grey;
+    border-radius: 50px;
+    padding:0px 20px
+}
+.navbar-brand
+{
+  
+font-family: 'Pacifico', cursive;
+font-weight: bold;
+
+}
+
+.icon
+{
+    text-align: right;
+    position: relative;
+    color:grey;
+    top:183px;
+    float:bottom;
+    bottom:00px;
+}
+.icon a{
+    color:grey;
+}
+.myIcon{
+    padding-left :10px;
+}
+.mysign
+{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+
+}
+.myImage
+{
+    height:475px;
+    width:500px;
+   text-align: center;
+   position: relative;
+   top:40px;
+   left: 60px;
+   border-radius:50%;
+}
+.bg-color
+{
+    background-color:#edf6f9
+}
+.about
+{
+    height: 30vh;
+    width:70%;
+    background-color:#b8e2f0;
+    position: relative;
+    left:175px;
+    border-radius:20px;
+    display: flex;
+    color:rgb(83, 81, 81);
+    justify-content: space-between;
+    align-items:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.left
+{
+    width:60%;
+    padding:00px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress
+{
+    margin-bottom:20px;
+}
+.skill-left
+{
+    position: relative;
+    top:200px;
+}
+.card{
+   
+    border-radius:00px;
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill-title
+{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    position: relative;
+    top:70px;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.familiar-title
+{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+   
+}
+.cretivity-Image
+{
+    height: 200px;
+    width: 200px;
+    margin:5px 10px;
+}
+.cretivity
+{
+    margin:10px 200px;
+}
+
+
+.contact
+{
+    height: 30vh;
+    width:70%;
+    background-color:#b8e2f0;
+    position: relative;
+    left:175px;
+    top:100px;
+    border-radius:20px;
+    display: flex;
+    color:rgb(83, 81, 81);
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:50px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.btn-contact
+{
+    position: relative;
+    left: 200px;
+    top:20px
+}
+.footer-contact ul 
+{
+    list-style: none
+}
+.footer-contact a 
+{
+   color: grey;
+   text-decoration: none;
+}
+.footer{
+    
+    padding-top:100px ;
+
+    background-color: #fff;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    
+}
+.footer-icon
+{
+    position: relative;
+    padding-left: 50px;
+    
+}
+.footer-icon a
+{
+   color: grey;
+    
+}
+.svgImage
+{
+    height: 500px;
+    width:500px;
+}
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {  
+.myImage
+{
+    height:200px;
+    width:200px;
+   text-align: center;
+   position: relative;
+   top:40px;
+   left: 80px;
+   border-radius:50%;
+}
+.right_side
+{
+    float: right;
+    position: relative;
+    top:00pxpx;
+    padding-right:00pxpx;
+}
+.my_position
+{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    position: relative;
+    top:70px;
+    left: 00px;
+    -webkit-background-clip: text;
+    text-align: left;
+   
+}
+
+.myDetails
+{
+    color: grey;
+    text-align: center;
+    position: relative;
+    top:90px;
+   
+    
+  
+   
+}
+.about
+{
+    height: 60vh;
+    width:100%;
+    background-color:#b8e2f0;
+    position: relative;
+    text-align: center;
+    left:00px;
+    top:70px;
+    display:inline-block;
+    border-radius:20px;
+    display: flex;
+    color:rgb(83, 81, 81);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.svgImage 
+{
+    height: 00px;
+    width: 00px;
+}
+.skill-title
+{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    position: relative;
+    top:90px;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.btn_ReadMore{
+    color:white;
+    background-color:grey;
+    border-radius: 50px;
+    padding:7px 20px;
+    text-align: center;
+    position: relative;
+    left:60px;
+    top:90px;
+    font-weight: bold;
+    
+}
+.icon
+{
+    text-align: center;
+    position: relative;
+    color:grey;
+    top:120px;
+    bottom:00px;
+}
+.myIcon{
+    padding-left :2px;
+}
+.skill-left
+{
+    position: relative;
+    top:80px;
+}
+.familiar-title
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin:50px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    top:50px;
+    background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+   
+}
+.cretivity-Image
+{
+    height: 200px;
+    width: 200px;
+    margin:10px 50px;
+}
+.cretivity
+{
+    margin:10px 20px;
+}
+.contact
+{
+    height: 30vh;
+    width:100%;
+    background-color:#b8e2f0;
+    position: relative;
+    left:00px;
+    top:100px;
+    border-radius:20px;
+    display: flex;
+    color:rgb(83, 81, 81);
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:50px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.btn-contact
+{
+    position: relative;
+    left: 00px;
+    top:20px
+}
+.contact-de
+{
+    font-size: 20px;
+}
+.padding-for
+{
+    padding-left: 100px;
+}
+.col-sm-6
+{
+    padding-left :50px;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
