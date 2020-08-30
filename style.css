@@ -100,11 +100,11 @@ font-weight: bold;
 }
 .myImage
 {
-    height:475px;
+    height:450px;
     width:500px;
    text-align: center;
    position: relative;
-   top:40px;
+   top:60px;
    left: 60px;
    border-radius:50%;
 }
@@ -248,6 +248,12 @@ font-weight: bold;
     height: 500px;
     width:500px;
 }
+.footer-li
+{
+    font-weight:bold;
+    font-size:15px;
+}
+
 
 
 
@@ -259,13 +265,20 @@ font-weight: bold;
 @media (max-width: 575.98px) {  
 .myImage
 {
-    height:200px;
+    height:175px;
     width:200px;
    text-align: center;
    position: relative;
    top:40px;
-   left: 80px;
+   left: 75px;
    border-radius:50%;
+}
+.all-btn
+{
+
+}
+.left h3{
+   font-size: 00px;
 }
 .right_side
 {
@@ -301,6 +314,11 @@ font-weight: bold;
   
    
 }
+.right
+{
+    position: relative;
+    left: -30px;
+}
 .about
 {
     height: 60vh;
@@ -309,13 +327,17 @@ font-weight: bold;
     position: relative;
     text-align: center;
     left:00px;
-    top:70px;
-    display:inline-block;
+    top:70px;   
     border-radius:20px;
     display: flex;
     color:rgb(83, 81, 81);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+}
+.btn-primary
+{
+  position: relative;
+  top:8.5px;
 }
 .svgImage 
 {
@@ -331,7 +353,7 @@ font-weight: bold;
     background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
     color: transparent;
     position: relative;
-    top:90px;
+    top:150px;
     -webkit-background-clip: text;
     text-align: center;
 }
@@ -361,7 +383,7 @@ font-weight: bold;
 .skill-left
 {
     position: relative;
-    top:80px;
+    top:180px;
 }
 .familiar-title
 {
@@ -371,11 +393,12 @@ font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     position: relative;
-    top:50px;
+    top:10px;
     background-image: url(https://media.giphy.com/media/3o7btTyWCRlvYyU1EI/giphy.gif);
     color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    margin-bottom: 50px;
    
 }
 .cretivity-Image
@@ -425,7 +448,7 @@ font-weight: bold;
 }
 .col-sm-6
 {
-    padding-left :50px;
+    padding-left :35px;
 }
 
 }
